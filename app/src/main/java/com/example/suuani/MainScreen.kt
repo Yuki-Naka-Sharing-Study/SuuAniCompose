@@ -39,7 +39,7 @@ fun MainScreen() {
             }
         )
         when (pagerState.currentPage) {
-
+            0 -> SansuuScreen()
         }
         TabsContent(tabs = tabs, pagerState = pagerState)
     }
