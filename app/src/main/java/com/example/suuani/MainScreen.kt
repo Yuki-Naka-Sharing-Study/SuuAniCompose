@@ -76,7 +76,7 @@ private fun Tabs(
 ) {
     TabRow(
         selectedTabIndex = pagerState.currentPage,
-        backgroundColor = Color(0xFF6A1B9A),
+        backgroundColor = Color(0xFF0000ff),
         contentColor = Color.Yellow,
         indicator = { tabPositions ->
             TabRowDefaults.Indicator(
