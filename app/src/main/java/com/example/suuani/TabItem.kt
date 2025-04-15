@@ -10,7 +10,7 @@ sealed class TabItem(
     var screen: ComposableFun
 ){
     object SANSUU : TabItem(R.drawable.sansuu, "算数", {})
-    object CHUUGAKU_SUUGAKU : TabItem(R.drawable.chuugaku_suugaku, "中学数学", {})
-    object KOUKOU_SUUGAKU : TabItem(R.drawable.koukou_suugaku, "高校数学", {})
-    object DAIGAKU_SUUGAKU : TabItem(R.drawable.daigaku_suugaku, "大学数学", {})
+    object CHUUGAKU_SUUGAKU : TabItem(R.drawable.chuugaku_suugaku, "中学\n数学", {})
+    object KOUKOU_SUUGAKU : TabItem(R.drawable.koukou_suugaku, "高校\n数学", {})
+    object DAIGAKU_SUUGAKU : TabItem(R.drawable.daigaku_suugaku, "大学\n数学", {})
 }
